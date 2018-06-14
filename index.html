@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--
+Final Portfolio Project for COGS3
+Author: Izabela M. Tolentino
+-->
+<html lang="en">
+<head>
+  <title>Izabela M. Tolentino - Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <!-- Custom Style -->
+  <link href="css/myCustom.css" rel="stylesheet">
+
+</head>
+
+<body onload="startup()" data-spy="scroll" data-target=".navbar" data-offset="200">
+  <!-- ###########################  NAVBAR  ########################### -->
+  <!-- Template taken from: https://getbootstrap.com/docs/4.1/components/navbar/ -->
+  <nav class="navbar navbar-inverse navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#splash"><img id="logo" src="images/logo-color.png"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <img class="menu-button" src="images/menu.png">
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav dynamic-color">
+          <li class="nav-item">
+            <a class="nav-link" href="#splash">Top <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ###########################  CONTENT  ########################### -->
+  <div class="container-fluid content">
+    <!--<div class="content-padding"></div>-->
+    <section id="splash">
+      <div class="splash">
+        <div class="splash-text center">
+          <div class="content-padding"></div>
+          <h1 id="title"></h2>
+          </div>
+        </div>
+      </section>
+      <!-- =========================  ABOUT ============================ -->
+      <section id="about">
+        <div class="row content-item align-items-center justify-content-center">
+          <div class="col-lg-6 content-subitem">
+            <h2 id="about-text">About</h2>
+            <img class="rounded" src="images/profile.jpg">
+            <hr>
+            <p>
+              I am currently a 3rd-year Math-Computer Science major at University of
+              California San Diego. When I was kid, I wanted to become an artist
+              for a living. That dream has since changed, but I still
+              constantly yearn for moments in which I can express my creativity. I am seeking
+              a career where I can combine both my technical and creative skills to help create
+              something that I can be proud of.
+              <br><br>
+              In terms of extracurriculars, I am an officer of UCSD's Anime Club: Cal Animage Beta.
+              I am in charge of maintaining the website and drawing any art assets the club may need
+              for promotional material. I am also a part of a competitive urban dance team on campus,
+              Sleepless Collective (<a href="https://www.youtube.com/watch?v=xobDchJEUfw">link to video of our most recent competition</a>).
+              When not handling my officer duties or dancing, I enjoy playing video games and watching movies.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div id="skills">
+        <div class="content-item row align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <h3>Technical Skills</h3>
+            <p>
+              <b>Languages</b>: C, C++, Python, Java, HTML, CSS, Javascript, Matlab, R<br>
+              <b>Development Tools:</b>: Git, Visual Studio<br>
+              <b>Operating Systems:</b>: Windows, Linux (Ubuntu), Mac OS X
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Graphic Design Skills</h3>
+            <p>
+              Photoshop<br> Illustrator<br> Paint Tool SAI
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <a class="resume-button" href="IzabelaTolentinoResume.pdf">Résumé</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================  WORK  ============================ -->
+    <section id="work">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+          <h2 id="works-text">Works</h2>
+        </div>
+
+        <div class="work row content-item align-items-center justify-content-center">
+          <span><a target="_blank" class="work-link" href="images/grid/shpe.png">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-shpe.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Napa Valley College's SHPE Banner</p>
+              </div>
+            </div>
+          </a></span>
+          <span><a target="_blank" class="work-link" href="https://youtu.be/_IY3VIWyO1k">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-bunnymation.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Bunny Story Animation (video)</p>
+              </div>
+            </div>
+          </a></span>
+          <span><a target="_blank" class="work-link" href="http://animefest.ucsd.moe/">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-animefest.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Animefest 2018 Website</p>
+              </div>
+            </div>
+          </a></span>
+          <span><a target="_blank" class="work-link" href="http://ucsd.moe/">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-ucsdmoe.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Cal Animage Beta Website</p>
+              </div>
+            </div>
+          </a></span>
+          <span><a target="_blank" class="work-link" href="images/grid/cab-shirt.png">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-cabshirt.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Cal Animage Beta Spring 2018 T-Shirt</p>
+              </div>
+            </div>
+          </a></span>
+          <span><a target="_blank" class="work-link" href="images/grid/cab-assets.pdf">
+            <div class="img-wrapper">
+              <img src="images/grid/thumbnail-art.png">
+              <div class="work-description-overlay">
+                <p class="work-description">Cal Animage Beta Art Assets</p>
+              </div>
+            </div>
+          </a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CONTACT ============================ -->
+    <!-- Basic footer like thing, has linkedin, github, and email? -->
+    <hr>
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="content-item footer">
+          <div class="accounts">
+            <span><a class="account-link" href="https://github.com/Urufumi"><img src="images/github-64.png"></a></span>
+            <span><a class="account-link" href="https://www.linkedin.com/in/izatolen/"><img src="images/linkedin-66.png"></a></span>
+          </div>
+          <div class="row">
+            <p>
+              izabela.tolentino@gmail.com <br><br>
+              <i>Website designed and created by Izabela M. Tolentino</i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/myCustom.js"></script>
+
+</body>
+
+
+</html>
